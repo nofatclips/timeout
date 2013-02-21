@@ -10,7 +10,7 @@ if __name__ == '__main__':
         primes = settimeout(1)(primes)
         fibonacci = settimeout(1)(fibonacci)
 
-    workaround()
+    #workaround()
     primes(30000)
     fibonacci(30000)
     primes(25000)
